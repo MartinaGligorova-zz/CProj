@@ -59,8 +59,9 @@ namespace CSProject
                     myStaff[i].CalculatePay();
                     Console.WriteLine(myStaff[i].ToString());
                 }
-                catch (Exception)
+                catch (Exception e)
                 {
+                    Console.WriteLine(e.Message);
                     Console.WriteLine("Error in input");
                     i--;
                 }
