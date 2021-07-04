@@ -31,7 +31,7 @@ namespace CSProject
                             else if (result[1].Equals("Admin"))
                                 myStaff.Add(new Admin(result[0]));
                             else
-                                Console.WriteLine("The position is nor Admin nor Manager - error");
+                                Console.WriteLine("The position is neither Admin nor Manager - error");
                         }
 
                         sr.Close();
